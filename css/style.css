@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #f4ebe4;
+  padding: 15px 0 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  /* gap: 2%; */
+  flex-wrap: wrap;
+
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.align-item {
+  align-items: center;
+}
+
+.logo {
+  width: 42%;
+}
+
+.menu {
+  width: 58%;
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #0c0a0a;
+  margin-bottom: 8px;
+}
+
+.menu a {
+  background-color: #3f7fe0;
+  color: white;
+  padding: 8px 19px;
+  display: inline-flex;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =========== About Us Section =========== */
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section {
+  padding: 35px 0;
+}
+
+.col_1_2 {
+  width: 50%;
+}
+
+.col_1_2 div {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-section h2 {
+  font-size: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3;
+  /* line-height: 50px; */
+  margin: 0;
+}
+
+.about-section h3 {
+  font-size: 23px;
+  text-align: center;
+  margin: 0;
+}
